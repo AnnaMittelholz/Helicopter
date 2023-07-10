@@ -1,0 +1,17 @@
+name: mars-mag
+
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.7
+  - numpy
+  - scipy
+  - matplotlib
+  - ipywidgets
+  - jupyterlab
+  # - SimPEG=0.15.0
+  - pip
+  - pip:
+    - git+https://github.com/simpeg/discretize.git@lheagy-patch-1
+    - git+https://github.com/simpeg/simpeg.git
