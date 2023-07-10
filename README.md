@@ -12,7 +12,7 @@ This notebook simulates and inverts 3 component magnetic field data collected ov
 
 ## Contents
 
-There is one notebooks in this repository:
+There is one notebook in this repository:
 
 - [mvi_CraterScenario.ipynb](mvi_CraterScenario)
 
